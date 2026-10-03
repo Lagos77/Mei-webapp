@@ -1,7 +1,17 @@
 .DS_Store
 .env
+.env.*
+!.env.example
 /node_modules/
 
 # React Router
 /.react-router/
 /build/
+
+# Cloudflare
+.wrangler/
+
+# Logs and editors
+*.log
+.idea/
+.vscode/
