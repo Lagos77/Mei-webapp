@@ -1,4 +1,18 @@
+:root {
+  --color-black: #000000;
+  --color-navy: #0f1528;
+  --color-aqua: #b3dade;
+  --color-mint: #58beae;
+  --color-periwinkle: #6771cd;
+  --color-white: #ffffff;
+  --color-teal: #3b8188;
+  --color-gray: #686868;
+  --color-lavender: #b3b3de;
+  --color-sky: #a9c7ec;
+}
+
 html,
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }

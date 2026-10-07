@@ -1,0 +1,47 @@
+.contact {
+  padding: 2.5rem 1rem;
+  background: var(--color-sky);
+  color: var(--color-black);
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  flex: 1 1 280px;
+}
+
+.contact-info a {
+  color: var(--color-black);
+}
+
+.contact-map {
+  flex: 1 1 280px;
+  width: 100%;
+  min-height: 260px;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 1rem 1rem;
+  }
+
+  .contact-info {
+    flex: 0;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-map {
+    flex: 1;
+    min-height: 220px;
+  }
+}

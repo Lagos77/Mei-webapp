@@ -1,0 +1,43 @@
+.meetings {
+  flex-direction: row;
+  text-align: center;
+  background: var(--color-white);
+  color: var(--color-black);
+  margin-bottom: 2rem;
+}
+
+.meetings-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.meeting-card {
+  padding: 0rem 3rem;
+  border: 1px solid var(--color-black);
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .meetings-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .meeting-card {
+    padding: 0rem 0.6rem;
+    border: 1px solid var(--color-black);
+    border-radius: 8px;
+  }
+
+  .meeting-card h3 {
+    font-size: 0.8rem;
+  }
+
+  .meeting-card p {
+    font-size: 0.7rem;
+  }
+}
