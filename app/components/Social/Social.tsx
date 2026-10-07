@@ -17,7 +17,11 @@ const links = [
     href: "https://www.instagram.com/misionevangelicainternacional_/",
     icon: <FaInstagram />,
   },
-  { name: "Spotify", href: "https://spotify.com/", icon: <FaSpotify /> },
+  {
+    name: "Spotify",
+    href: "https://open.spotify.com/show/3Cz02ShoxkpCNS0U81sEPc?si=RvSLime6Soyqg6YTW9s0jw&utm_source=copy-link",
+    icon: <FaSpotify />,
+  },
   {
     name: "MEI Youth",
     href: "https://www.instagram.com/mei.sthlm/",
@@ -31,7 +35,7 @@ export function Social() {
       {links.map(({ name, href, icon }) => (
         <a
           key={name}
-          className="social-link"
+          className={`social-link social-${name.toLowerCase()}`}
           href={href}
           target="_blank"
           rel="noopener noreferrer"

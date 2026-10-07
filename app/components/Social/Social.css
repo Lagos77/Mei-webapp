@@ -32,8 +32,28 @@
 }
 
 .social-icon img {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.social-youtube .social-icon {
+  color: #ff0000;
+  font-size: 1.75rem;
+}
+
+.social-facebook .social-icon {
+  color: #1877f2;
+  font-size: 1.75rem;
+}
+
+.social-instagram .social-icon {
+  color: #e4405f;
+  font-size: 1.75rem;
+}
+
+.social-spotify .social-icon {
+  color: #1db954;
+  font-size: 1.75rem;
 }
 
 @media (max-width: 600px) {
